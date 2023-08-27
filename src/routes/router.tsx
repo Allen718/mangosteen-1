@@ -8,6 +8,7 @@ import { Welcome4 } from '../pages/welcome/welcome_4/Welcome4'
 import { ErrorPage } from '../pages/error_page/ErrorPage'
 
 export const router = createBrowserRouter([
+
   {
     path: '/',
     element: <MainLayout />,
@@ -23,6 +24,11 @@ export const router = createBrowserRouter([
           { path: '4', element: <Welcome4 /> },
         ],
       },
+      {
+        path: '/home',
+        element: <div>this is home</div>
+      }
     ],
   },
+
 ])
