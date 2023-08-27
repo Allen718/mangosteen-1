@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate, useOutlet } from 'react-router-dom'
 import logo from '../assets/images/logo.svg'
 import { useSwipe } from '../hooks/useSwipe'
+import { useLocalStore } from '../stores/useStoreLocal'
 const linkMap: Record<string, string> = {
   '/welcome/1': '/welcome/2',
   '/welcome/2': '/welcome/3',
@@ -34,9 +35,9 @@ export const WelcomeLayout: React.FC = () => {
   })
   const mainRef = useRef(null);
   const { direction } = useSwipe(mainRef, { onTouchStart: e => e.preventDefault() });
-
+  const { setHasReadWelcomes } = useLocalStore();
   //点击跳过
-  const handleClickSkip = () => { localStorage.setItem('hasReadWelcomes', 'yes') }
+  const handleClickSkip = () => { setHasReadWelcomes(true) }
   useEffect(() => {
     if (direction === 'right') {
       if (animating.current) { return }

@@ -6,6 +6,7 @@ import { Welcome2 } from '../pages/welcome/welcome_2/Welcome2'
 import { Welcome3 } from '../pages/welcome/welcome_3/Welcome3'
 import { Welcome4 } from '../pages/welcome/welcome_4/Welcome4'
 import { ErrorPage } from '../pages/error_page/ErrorPage'
+import { Home } from '../pages/home/Home'
 
 export const router = createBrowserRouter([
 
@@ -26,7 +27,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/home',
-        element: <div>this is home</div>
+        element: <Home />
       }
     ],
   },
