@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>19. Speed Dial/02. Elements/Item备份 2@2x</title>
+    <defs>
+        <polygon id="path-1" points="32 18.2857143 18.2857143 18.2857143 18.2857143 32 13.7142857 32 13.7142857 18.2857143 0 18.2857143 0 13.7142857 13.7142857 13.7142857 13.7142857 0 18.2857143 0 18.2857143 13.7142857 32 13.7142857"></polygon>
+    </defs>
+    <g id="微信管理（fa）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="微信管理-/-自动回复-/关注后自动回复（空规则）" transform="translate(-504.000000, -416.000000)">
+            <g id="区块-表单" transform="translate(280.000000, 245.000000)">
+                <g id="编组-2" transform="translate(32.000000, 99.000000)">
+                    <g id="34.-Icons/filled/content/add_24px" transform="translate(192.000000, 72.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="icon/content/add_24px" fill-opacity="0.87" fill="#ffffff" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
